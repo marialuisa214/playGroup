@@ -1,10 +1,11 @@
-import { Text, View } from "react-native";
+import { Conteiner, GroupText } from "./styles";
 
 export function Group(){
     return (
-        <View>
-            <Text>Group</Text>
-        </View>
+        <Conteiner>
+            <GroupText>Group</GroupText>
+        </Conteiner>
+        
     )
 
 }
